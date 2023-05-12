@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicio01</title>
+</head>
+<body>
+  
+  <script>
+
+    var n1 = parseFloat(prompt("Digite um numero: "))
+    var n2 = parseFloat(prompt("Digite outro numero: "))
+    var ope = prompt("Digite a operação (+, -, *, /): ")
+    var resul
+
+    if (ope == '+'){
+      resul = n1 + n2
+    }
+    else if (ope == '-'){
+      resul = n1 - n2
+    }
+    else if (ope == '*'){
+      resul = n1 * n2
+    }
+    else if (ope == '/'){
+      resul = n1 /n2
+    }
+    else{
+      alert("Operador digitado invalido!")
+    }
+
+    document.write("<h1>Resultado: " + resul + "</h1>")
+
+  </script>
+
+</body>
+</html>
