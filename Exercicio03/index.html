@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicio03</title>
+  <style>
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      background-color: black;
+    }
+    h1{
+      margin-top: 40px;
+      margin-bottom: 40px;
+      color: rgb(185, 36, 36);
+      text-decoration: underline;
+    }
+    p{
+      color: white;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  
+  <h1>Brasileiro ou nao?</h1>
+
+  <p>Digite de qual pais voce é : </p>
+  
+  <input type="text" name="pais" id="ipais">
+  <input type="submit" value="Ver" onclick="mostrar()">
+
+  <p id="resp">Resposta : </p>
+
+  <script>
+    
+    function mostrar(){
+      var ve = document.querySelector("input#ipais")
+      var res = document.querySelector("p#resp")
+      var vel = ve.value.toLowerCase()
+
+      if (vel == 'brasil'){
+        res.innerHTML = "Resposta : Voce é brasileiro"
+      }
+      else{
+        res.innerHTML = "Resposta : Voce é estrageiro"
+      }
+    }
+
+  </script>
+</body>
+</html>
