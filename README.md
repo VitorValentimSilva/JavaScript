@@ -15,3 +15,5 @@ Estes são os exercícios que estou fazendo na minha faculdade de análise e des
 <a href="https://vitorvalentimsilva.github.io/JavaScript/Exercicio06/" target="_blank">Exercício 6</a>
 
 <a href="https://vitorvalentimsilva.github.io/JavaScript/Exercicio07/" target="_blank">Exercício 7</a>
+
+<a href="https://vitorvalentimsilva.github.io/JavaScript/Exercicio08/" target="_blank">Exercício 8</a>
